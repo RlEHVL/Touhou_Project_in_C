@@ -1,23 +1,50 @@
-#include "Anm1.h"
-#include <math.h>
-#include <stdlib.h>
+#pragma once
+#include <windows.h>
+// 외부 정의된 함수, 상수, 매크로들 가정
+// 예:
+// extern float CMathMgr_GetAngle(void* pTarget, void* pObj);
+// extern void CreateBullet_CNormalBulletA(float fx, float fy, float angle, int abl, int time, float fSpeed, ...);
+// extern INFO GetInfo(void* pObj);
+// extern void SetInfo(void* pObj, INFO info);
+// extern void* GetBitMap(void* pObj);
+// extern DWORD GetTickCount();
+// extern int WINCX;
+// extern int WINCY;
+// extern float PI;
+// extern int 삭제; // »èÁ¦
+// extern void* Map_GetBitmap(void* pMap, const wchar_t* key);
+// extern HDC CBitMap_GetMemDC(void* pBitmap);
+// extern int ABL_NORMAL;
+// #define STAT(x) ((STAT){(x),(x)})
+// #define INFO(x,y,w,h) ((INFO){(x),(y),(w),(h),0})
 
-extern float CMathMgr_GetAngle(void* pTarget, void* pObj);
-extern void CreateBullet_CNormalBulletA(float fx, float fy, float angle, int abl, int time, float fSpeed, ...);
-extern INFO GetInfo(void* pObj);
-extern void SetInfo(void* pObj, INFO info);
-extern void* GetBitMap(void* pObj);
-extern DWORD GetTickCount();
-extern int WINCX;
-extern int WINCY;
-extern float PI;
-extern void TransparentBlt(HDC hdc,int x,int y,int cx,int cy,HDC hdcSrc,int x1,int y1,int cx1,int cy1,UINT crTransparent);
-extern int 삭제;
+typedef struct _STAT {
+    int iHP;
+    int iMaxHP;
+} STAT;
 
-extern void* Map_GetBitmap(void* pMap, const wchar_t* key);
+typedef struct _INFO {
+    float fx;
+    float fy;
+    float fcx;
+    float fcy;
+    int iLayer;
+} INFO;
 
-extern HDC CBitMap_GetMemDC(void* pBitmap);
+typedef struct _CAnm1 {
+    void* m_pObj;
+    void* m_pTarget;
+    STAT  m_tStat;
+    int   m_iPhase;
+    float m_fAngle;
+    void* m_pMapBmp;
+    DWORD m_dwTime;
+    DWORD m_dwCoolTime;
+    INFO  m_BmpInfo;
+    float m_fSpeed;
+} CAnm1;
 
+// Pattern 함수 (CAnm1::Pattern)
 void CAnm1_Pattern(CAnm1* pThis)
 {
     switch (pThis->m_iPhase)
@@ -39,11 +66,14 @@ void CAnm1_Pattern(CAnm1* pThis)
     }
 }
 
+// Shoot 함수 (CAnm1::Shoot)
 void CAnm1_Shoot(CAnm1* pThis, float _angle)
 {
     INFO tinfo = GetInfo(pThis->m_pObj);
     CreateBullet_CNormalBulletA(tinfo.fx, tinfo.fy, _angle + rand()%7 - 3, ABL_NORMAL, 0, 3.5f);
 }
+
+// Initialize (CAnm1::Initialize)
 void CAnm1_Initialize(CAnm1* pThis)
 {
     switch (pThis->m_iPhase)
@@ -78,6 +108,7 @@ void CAnm1_Initialize(CAnm1* pThis)
     pThis->m_fSpeed = 3.f;
 }
 
+// Progress (CAnm1::Progress)
 int CAnm1_Progress(CAnm1* pThis, INFO* rInfo)
 {
     CAnm1_Pattern(pThis);
@@ -101,6 +132,8 @@ int CAnm1_Progress(CAnm1* pThis, INFO* rInfo)
 
     return 0;
 }
+
+// Render (CAnm1::Render)
 void CAnm1_Render(CAnm1* pThis, HDC hdc)
 {
     INFO tinfo = GetInfo(pThis->m_pObj);
@@ -118,7 +151,8 @@ void CAnm1_Render(CAnm1* pThis, HDC hdc)
         RGB(255, 255, 255));
 }
 
+// Release (CAnm1::Release)
 void CAnm1_Release(CAnm1* pThis)
 {
-    (void)pThis;
+    (void)pThis; // 사용하지 않는 매개변수 경고 방지
 }
