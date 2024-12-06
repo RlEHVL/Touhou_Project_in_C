@@ -1,4 +1,4 @@
-#include "CAnm2.h"
+#include "Anm2.h"
 #include <math.h>
 #include <stdlib.h>
 
