@@ -1,22 +1,5 @@
 #pragma once
 #include <windows.h>
-// 외부 정의된 함수, 상수, 매크로들 가정
-// 예:
-// extern float CMathMgr_GetAngle(void* pTarget, void* pObj);
-// extern void CreateBullet_CNormalBulletA(float fx, float fy, float angle, int abl, int time, float fSpeed, ...);
-// extern INFO GetInfo(void* pObj);
-// extern void SetInfo(void* pObj, INFO info);
-// extern void* GetBitMap(void* pObj);
-// extern DWORD GetTickCount();
-// extern int WINCX;
-// extern int WINCY;
-// extern float PI;
-// extern int 삭제; // »èÁ¦
-// extern void* Map_GetBitmap(void* pMap, const wchar_t* key);
-// extern HDC CBitMap_GetMemDC(void* pBitmap);
-// extern int ABL_NORMAL;
-// #define STAT(x) ((STAT){(x),(x)})
-// #define INFO(x,y,w,h) ((INFO){(x),(y),(w),(h),0})
 
 typedef struct _STAT {
     int iHP;
