@@ -18,3 +18,7 @@ void CBitMap_Release(CBitMap* pThis);
 HDC         CBitMap_GetMemDC(CBitMap* pThis);
 CBitMap*    CBitMap_LoadBmp(CBitMap* pThis, PTCHAR pFileName);
 CBitMap*    CBitMap_LoadBmp_Resource(CBitMap* pThis, int ResourceName);
+//추가
+void CBitMap_Release(CBitMap* pThis);
+
+#endif // BITMAP_H 중복 방지
