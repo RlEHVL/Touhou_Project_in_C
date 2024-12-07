@@ -1,5 +1,6 @@
 # 프로젝트 소개
 
-<img src="킹갓쭈대4조팀플/readme.jpg" alt="이미지 설명" width="800">
+<img src="킹갓쭈대4조팀플/readme.jpg" alt="이미지 설명" width="600">
 
-이 프로젝트는 Bullet Hell 게임입니다.
+이 프로젝트는 동방 프로젝트의 슈팅 게임의 cpp코드를 C로 변환하여 새롭게 만든 #연습용
+팀프로젝트 입니다
