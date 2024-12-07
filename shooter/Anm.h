@@ -7,10 +7,6 @@ extern "C" {
 #endif
 
 // CMonster_Bridge가 가진 멤버를 여기 포함해야 한다.
-// 원래 CMonster_Bridge가 C++ 클래스였으나 C로 변환 시 필요한 필드와
-// 함수 포인터 등을 직접 포함하거나, 공용 구조체로 관리.
-// 여기서는 간단히 CMonster_Bridge가 필요한 멤버를 CAnm1에 직접 포함한다고 가정.
-
 typedef struct _CAnm1 {
     void* m_pObj;
     void* m_pTarget;
