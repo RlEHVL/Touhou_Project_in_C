@@ -1,6 +1,6 @@
 # 4조 C언어 팀 프로젝트 소개
 
-<img src="킹갓쭈대4조팀플/readme.jpg" alt="이미지 설명" width="600">
+<img src="4조팀플/readme.jpg" alt="이미지 설명" width="600">
 
 ---
 
@@ -12,11 +12,11 @@
 
 > **하쿠레이 레이무** :
 > #
->   <img src="킹갓쭈대4조팀플/하쿠레이 레이무.png" alt="무녀" width="150">
+>   <img src="4조팀플/하쿠레이 레이무.png" alt="무녀" width="150">
 
 > **마리사** :
 > #
->   <img src="킹갓쭈대4조팀플/마리사.png" alt="마법사" width="150">
+>   <img src="4조팀플/마리사.png" alt="마법사" width="150">
 
 ---
 
