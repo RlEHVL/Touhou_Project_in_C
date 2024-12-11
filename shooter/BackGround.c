@@ -1,6 +1,12 @@
 #include "BackGround.h"
 #include <stdlib.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // 상수 정의 (헤더 파일 또는 별도 파일에서 정의 필요)
 #define WINCX 800
 #define WINCY 600
