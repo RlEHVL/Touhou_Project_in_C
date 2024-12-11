@@ -15,6 +15,12 @@
 #include "ThrustBulletA.h"
 #include "BounceBullet.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // Example implementations of methods
 
 void Player_Initialize(CPlayer* player) {
