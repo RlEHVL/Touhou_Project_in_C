@@ -1,6 +1,11 @@
 #pragma once
 #include <windows.h>
 
+/*
+    *
+    *ㄱㄷㅍ
+    */
+
 typedef struct _STAT {
     int iHP;
     int iMaxHP;
