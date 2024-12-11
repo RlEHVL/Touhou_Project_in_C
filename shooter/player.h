@@ -10,6 +10,12 @@
 #include "info.h"
 #include "frame.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // Forward declarations
 typedef struct CPlayer CPlayer;
 
