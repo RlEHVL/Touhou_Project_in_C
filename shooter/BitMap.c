@@ -1,6 +1,12 @@
 #include "BitMap.h"
 #include <windows.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // 외부 전역 변수
 extern HWND g_hWnd;
 extern HINSTANCE hInst;
