@@ -4,6 +4,12 @@
 #include <stdbool.h>
 #include "CBridge.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 typedef struct CObj {
     float x, y;               // 위치
     bool active;              // 활성화 여부

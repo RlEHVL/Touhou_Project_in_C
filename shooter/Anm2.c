@@ -2,6 +2,12 @@
 #include <math.h>
 #include <stdlib.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 extern float CMathMgr_GetAngle(void* pTarget, void* pObj);
 extern INFO GetInfo(void* pObj);
 extern void SetInfo(void* pObj, INFO info);

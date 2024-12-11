@@ -1,5 +1,11 @@
 #include "CThrustBulletA.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 void CThrustBulletA_SetTarget(CBridge* pBridge, struct CObj* pTarget) {
     pBridge->target = pTarget;
 }

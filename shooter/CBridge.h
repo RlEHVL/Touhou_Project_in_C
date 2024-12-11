@@ -1,6 +1,12 @@
 #ifndef CBRIDGE_H
 #define CBRIDGE_H
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 typedef struct CBridge {
     float angle;
     int type;

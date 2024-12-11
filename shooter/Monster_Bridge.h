@@ -3,6 +3,12 @@
 #include <stdbool.h>
 // 함수 가정 (OBJTYPE, CObj, CBullet, CBridge, CBullet_Bridge, CThrustBulletA 등)
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // 가정: CMonster_Bridge 구조체 정의
 typedef struct _CMonster_Bridge {
     int m_iPhase;

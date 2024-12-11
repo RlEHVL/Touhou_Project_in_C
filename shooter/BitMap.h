@@ -2,6 +2,12 @@
 
 #include <windows.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 typedef struct _CBitMap {
     HDC      m_hdc;
     HDC      m_MemDC;

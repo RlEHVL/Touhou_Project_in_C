@@ -1,6 +1,12 @@
 #include "List.h"
 #include <stdlib.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 list_CObj* create_list_CObj() {
     list_CObj* list = (list_CObj*)malloc(sizeof(list_CObj));
     list->head = NULL;

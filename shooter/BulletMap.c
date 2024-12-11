@@ -1,6 +1,12 @@
 #include "BulletMap.h"
 #include <stdbool.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 bool Map_FindBulletList(BulletMap* map, OBJTYPE type, list_CObj** ppList) {
     for (int i = 0; i < map->count; i++) {
         if (map->entries[i].key == type) {

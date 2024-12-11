@@ -5,6 +5,12 @@
 #define WINCX 800
 #define WINCY 600
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // 함수 구현
 void CBackGround_Initialize(CBackGround* self) {
     // 초기화 작업

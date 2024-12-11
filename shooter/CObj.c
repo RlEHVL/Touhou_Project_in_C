@@ -1,6 +1,12 @@
 #include "CObj.h"
 #include <stdlib.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 CObj* CObjFactory_CreateCBullet(float x, float y, struct CBridge* bridge) {
     CObj* obj = (CObj*)malloc(sizeof(CObj));
     obj->x = x;

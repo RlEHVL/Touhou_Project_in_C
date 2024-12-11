@@ -1,5 +1,11 @@
 #include "CBridge.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 void CBridge_SetAngle(CBridge* pBridge, float angle) {
     pBridge->angle = angle;
 }

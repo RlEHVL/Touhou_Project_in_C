@@ -4,6 +4,12 @@
 #include "List.h" // list_CObj 관련 정의 포함
 #include "CObj.h" // OBJTYPE 정의 포함
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 typedef struct MapEntry {
     OBJTYPE key;               // 키 (탄환 유형)
     list_CObj* value;          // 값 (탄환 리스트)

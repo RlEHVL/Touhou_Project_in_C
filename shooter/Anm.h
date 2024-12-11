@@ -2,6 +2,12 @@
 #include <windows.h>
 #include "Monster_Bridge.h" // C 스타일로 변환된 Monster_Bridge를 사용한다고 가정
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 #ifdef __cplusplus
 extern "C" {
 #endif

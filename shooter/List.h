@@ -4,6 +4,12 @@
 #include <stdbool.h>
 #include "CObj.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 typedef struct ListNode {
     struct CObj* obj;          // CObj 포인터
     struct ListNode* next;     // 다음 노드
