@@ -3,6 +3,12 @@
 
 #include "Monster_Bridge.h"
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // CAnm2 구조체 정의
 typedef struct CAnm2 {
     CMonster_Bridge base; // CMonster_Bridge를 포함하여 상속과 유사한 구조 생성
