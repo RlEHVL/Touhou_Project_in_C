@@ -10,5 +10,9 @@ https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/index.php
 // git commit 일반적인 사이즈로는 안 됨
 https://git-lfs.com/
 
+git lfs install 사용하여 후크함
+
+
+
 // 외부 라이브러리 및 외부 헤더를 정리하는 곳입니다 : SDL & Aps & x64 & dbg & wav
 외부 헤더 : stdlib.h time.h window.h 기타 등등...
