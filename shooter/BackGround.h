@@ -4,6 +4,12 @@
 #include "Obj.h"
 #include <windows.h>
 
+/*
+    *
+    * 제작:동필
+    * 도움이:지피티
+*/
+
 // CBackGround 구조체 정의
 typedef struct _CBackGround {
     CObj base; // CObj를 상속하는 것처럼 사용
