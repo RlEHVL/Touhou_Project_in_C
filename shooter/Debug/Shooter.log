@@ -1,0 +1,122 @@
+﻿  stdafx.cpp
+  Anm1.cpp
+  Anm2.cpp
+  BackGround.cpp
+  BitMap.cpp
+  Boss1.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Boss1.cpp(336,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Boss1.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Boss1.cpp(344,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Boss1.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Boss1.cpp(530,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Boss1.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Boss1.cpp(531,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Boss1.cpp'을(를) 컴파일하는 중)
+  
+  BounceBullet.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\BounceBullet.cpp(43,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/BounceBullet.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\BounceBullet.cpp(91,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/BounceBullet.cpp'을(를) 컴파일하는 중)
+  
+  Bridge.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(51,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(52,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(55,49): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(56,51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(58,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Bridge.cpp(59,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bridge.cpp'을(를) 컴파일하는 중)
+  
+  Bullet.cpp
+  Bullet_Bridge.cpp
+  Clear.cpp
+  CollMgr.cpp
+  Device.cpp
+  Effect.cpp
+  Effect_Bridge.cpp
+  Explosion.cpp
+  GameOver.cpp
+  GuideBullet.cpp
+  KeyMgr.cpp
+  Logo.cpp
+  MagicHole.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\MagicHole.cpp(49,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/MagicHole.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  MainGame.cpp
+  MathMgr.cpp
+  Monster.cpp
+  Monster_Bridge.cpp
+  MonWall.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\MonWall.cpp(49,67): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/MonWall.cpp'을(를) 컴파일하는 중)
+  
+  Mouse.cpp
+  MyButton.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\MyButton.cpp(56,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/MyButton.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\MyButton.cpp(56,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/MyButton.cpp'을(를) 컴파일하는 중)
+  
+  MyMenu.cpp
+  NormalBullet.cpp
+  NormalBulletA.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\NormalBulletA.cpp(27,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/NormalBulletA.cpp'을(를) 컴파일하는 중)
+  
+  Obj.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Obj.cpp(24,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Obj.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Obj.cpp(25,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Obj.cpp'을(를) 컴파일하는 중)
+  
+  ObjMgr.cpp
+  Player.cpp
+  ReverseBullet.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\ReverseBullet.cpp(25,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/ReverseBullet.cpp'을(를) 컴파일하는 중)
+  
+  SceneMgr.cpp
+  SceneObj.cpp
+  Shooter.cpp
+  Stage.cpp
+  StageBack.cpp
+  ThrustBulletA.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\ThrustBulletA.cpp(35,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/ThrustBulletA.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  TimeLine.cpp
+  Title.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Title.cpp(36,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Title.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\Title.cpp(36,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Title.cpp'을(를) 컴파일하는 중)
+  
+  WormHole.cpp
+C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Shooter\WormHole.cpp(70,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/WormHole.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  Shooter.vcxproj -> C:\Users\REV\Downloads\Shooting_game_API-main\Shooting_game_API-main\Debug\Shooter.exe
